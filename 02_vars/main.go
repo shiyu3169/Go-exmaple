@@ -10,7 +10,11 @@ func main() {
 	const isCool = true
 
 	// Shorthand
-	name := "Shiyu"
+	// name := "Shiyu"
+	// email:="brad@gmail.com"
+
+	// shorter
+	name, email := "shiyu", "shiyu@gmail.com"
 
 	// Float
 	size := 1.3
