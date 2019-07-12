@@ -15,4 +15,5 @@ func main() {
 
 	fmt.Println(fruitArr)
 	fmt.Println(fruitArr[1])
+	fmt.Println(len(fruitArr))
 }
