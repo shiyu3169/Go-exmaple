@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// Using var
-	var name string = "Shiyu"
+	var name = "Shiyu"
 
 	fmt.Println(name)
 }
