@@ -11,7 +11,7 @@ func main() {
 	// fruitArr[1] = "Orange"
 
 	// Declare and assign
-	fruitArr := [2]string{"Apple", "Orange"}
+	fruitArr := []string{"Apple", "Orange", "Grape"}
 
 	fmt.Println(fruitArr)
 	fmt.Println(fruitArr[1])
