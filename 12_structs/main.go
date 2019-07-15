@@ -19,6 +19,11 @@ func (p Person) greet() string {
 	return "Hello, my name is " + p.firstName + " " + p.lastName + "and I am " + strconv.Itoa(p.age)
 }
 
+// hasBirthday method (pointer receiver)
+func (p *Person) hasBirthday() {
+	p.age++
+}
+
 func main() {
 	// Init person using struct
 	// person1 := Person{firstName: "Samantha", lastName: "Smith", city: "Boston", gender: "f", age: 25}
@@ -29,6 +34,7 @@ func main() {
 	// fmt.Println(person1.firstName)
 
 	// fmt.Println(person1)
+	person1.hasBirthday()
 	fmt.Println(person1.greet())
 
 }
